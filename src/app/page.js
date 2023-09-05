@@ -30,7 +30,7 @@ export default function Home() {
   }
   function handleClickRandomAction() {
     let randomNumber = randomNumberGenerate(-100, 100);
-    console.log(randomNumber);
+
     setNumber(randomNumber + number);
   }
 
